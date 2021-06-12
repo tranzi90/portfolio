@@ -7,6 +7,17 @@
 /* Custom properties - may be changed later */
 
 :root {
+<<<<<<< HEAD
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+=======
     --ff-primary: 'Lora', serif;
     --ff-secondary: 'Roboto Slab', serif;
 
@@ -16,6 +27,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #f8333c;
+>>>>>>> change some styles
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
