@@ -365,7 +365,7 @@ img{
 
 /* ===== FOOTER =====*/
 
-.footer{
+.footer {
   background-color: var(--second-color);
   color: #fff;
   text-align: center;
@@ -382,11 +382,20 @@ img{
   margin-bottom: var(--mb-4);
 }
 
-.footer__social{
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__link:hover,
+.footer__icon:hover {
+  opacity: .7;
+}
+
+.footer__social {
   margin-bottom: var(--mb-4);
 }
 
-.footer__icon{
+.footer__icon {
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
