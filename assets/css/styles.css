@@ -19,6 +19,7 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
+
 @media screen and (min-width: 768px){
   :root{
     --big-font-size: 3.5rem;
@@ -401,6 +402,10 @@ img{
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
+}
+
+.footer p {
+  font-size: .6rem;
 }
 
 /* ===== MEDIA QUERIES=====*/
