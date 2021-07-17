@@ -1,12 +1,15 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /*===== VARIABLES CSS =====*/
+
 :root{
   --header-height: 3rem;
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
+
 :root{
   --first-color: #051db6;
   --second-color: #0E2431;
@@ -28,7 +31,8 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
+
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -346,11 +350,20 @@ img{
   cursor: pointer;
 }
 
-.work__img img:hover {
-  transform: scale(1.1);
+figure {
+  text-align: center;
 }
 
+figcaption {
+  margin-bottom: var(--mb-1);
+}
+
+/*.work__img img:hover {*/
+/*  transform: scale(1.1);*/
+/*}*/
+
 /* ===== CONTACT =====*/
+
 .contact__input{
   width: 100%;
   font-size: var(--normal-font-size);
