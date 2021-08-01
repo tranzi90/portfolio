@@ -88,6 +88,7 @@ img{
 }
 
 /*===== CLASS CSS ===== */
+
 .section-title{
   position: relative;
   font-size: var(--h2-font-size);
@@ -191,6 +192,7 @@ img{
 }
 
 /*Active menu*/
+
 .active::after{
   position: absolute;
   content: "";
@@ -257,6 +259,7 @@ img{
 }
 
 /* ===== ABOUT =====*/
+
 .about__container{
   row-gap: 2rem;
   text-align: center;
@@ -273,6 +276,7 @@ img{
 }
 
 /* ===== SKILLS =====*/
+
 .skills__container{
   row-gap: 2rem;
   text-align: center;
@@ -351,11 +355,25 @@ img{
 }
 
 figure {
+  position: relative;
   text-align: center;
 }
 
 figcaption {
-  margin-bottom: var(--mb-1);
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  background-color: rgba(153,153,153,.9);
+  padding: 20px;
+  color: white;
+  opacity: 0;
+  transition: opacity .75s ease-out;
+}
+
+figure:hover figcaption {
+  opacity: 1;
 }
 
 /*.work__img img:hover {*/
