@@ -11,8 +11,10 @@
 /*===== Colors =====*/
 
 :root {
-  --first-color: #051db6;
-  --second-color: #0E2431;
+  --first-color: #048015;
+  --second-color: #051e01;
+  /*--first-color: #051db6;*/
+  /*--second-color: #0E2431;*/
 }
 
 /*===== Fonts & typography =====*/
