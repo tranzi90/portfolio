@@ -259,6 +259,11 @@ img {
   width: 295px;
 }
 
+.cv {
+  margin-left: 30%;
+  margin-top: var(--mb-2);
+}
+
 /*BUTTONS*/
 
 .button {
