@@ -51,21 +51,26 @@
 }
 
 /*===== BASE =====*/
-*,::before,::after{
+
+*,::before,::after {
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
 }
-h1,h2,p{
+
+h1, h2, p {
     margin: 0;  
 }
+
 ul{
     margin: 0;
     padding: 0;
