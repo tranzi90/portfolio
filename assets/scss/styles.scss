@@ -32,8 +32,9 @@
     }
 }
 
-/*===== Margenes =====*/
-:root{
+/*===== Margins =====*/
+
+:root {
     --mb-1: 0.5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
@@ -43,7 +44,8 @@
 }
 
 /*===== z index =====*/
-:root{
+
+:root {
     --z-back: -10;
     --z-normal: 1;
     --z-tooltip: 10;
@@ -71,22 +73,25 @@ h1, h2, p {
     margin: 0;  
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
-    display: block; // borra los espacios en blanco
+    display: block;
 }
 
 /*===== CLASS CSS ===== */
-.section-title{
+
+.section-title {
     position: relative;
     font-size: var(--h2-font-size);
     color: var(--first-color);
@@ -94,7 +99,7 @@ img{
     margin-bottom: var(--mb-4);
     text-align: center;
 
-    &::after{
+    &::after {
         position: absolute;
         content: '';
         width: 64px;
@@ -106,13 +111,15 @@ img{
         background-color: var(--first-color);
     }
 }
-.section{
+
+.section {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
 
 /*===== LAYOUT =====*/
-.bd-grid{
+
+.bd-grid {
     max-width: 1024px;
     display: grid;
     grid-template-columns: 100%;
@@ -121,7 +128,8 @@ img{
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
-.l-header{
+
+.l-header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -132,15 +140,16 @@ img{
 }
 
 /*===== NAV =====*/
-.nav{
+
+.nav {
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: var(--font-semi);
 
-    &__menu{
-        @media screen and (max-width: 768px){
+    &__menu {
+        @media screen and (max-width: 768px) {
             position: fixed;
             top: var(--header-height);
             right: -100%;
@@ -151,14 +160,16 @@ img{
             transition: .5s;
         }
     }
-    &__item{
+
+    &__item {
         margin-bottom: var(--mb-4);
     }
-    &__link{
+
+    &__link {
         position: relative;
         color: #fff;
 
-        &:hover{
+        &:hover {
             position: relative;
 
             &::after{
@@ -172,17 +183,21 @@ img{
             }
         }
     }
-    &__logo{
+
+    &__logo {
         color: var(--second-color);
     }
-    &__toggle{
+
+    &__toggle {
         color: var(--second-color);
         font-size: 1.5rem;
         cursor: pointer;
     }
 }
+
 /*Active menu*/
-.active::after{
+
+.active::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -193,19 +208,22 @@ img{
 }
 
 /*=== Show menu ===*/
-.show{
+
+.show {
     right: 0;
 }
 
 /*===== HOME =====*/
-.home{
+
+.home {
     height: calc(100vh - 3rem);
     row-gap: 1rem;
 
-    &__data{
+    &__data {
         align-self: center;
     }
-    &__title{
+
+    &__title {
         font-size: var(--big-font-size);
         margin-bottom: var(--mb-5);
 
