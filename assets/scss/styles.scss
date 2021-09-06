@@ -255,7 +255,8 @@ img {
 }
 
 /*BUTTONS*/
-.button{
+
+.button {
     display: inline-block;
     background-color: var(--first-color);
     color: #fff;
@@ -269,6 +270,7 @@ img {
 }
 
 /* ===== ABOUT =====*/
+
 .about{
     &__container{
         row-gap: 2rem;
