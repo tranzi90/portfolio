@@ -434,99 +434,112 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and(min-width: 768px){
-    body{
+
+@media screen and(min-width: 768px) {
+    body {
         margin: 0;
     }
-    .section{
+
+    .section {
         padding-top: 4rem;
         padding-bottom: 3rem;
     }
 
-    .section-title{
+    .section-title {
         margin-bottom: var(--mb-6);
 
-        &::after{
+        &::after {
             width: 80px;
             top: 3rem;
         }
     }
 
-    .nav{
+    .nav {
         height: calc(var(--header-height) + 1rem);
-        &__list{
+        &__list {
             display: flex;
             padding-top: 0;
         }
-        &__item{
+
+        &__item {
             margin-left: var(--mb-6);
             margin-bottom: 0;
         }
-        &__toggle{
+
+        &__toggle {
             display: none;
         }
-        &__link{
+
+        &__link {
             color: var(--second-color);
         }
     }
-    .home{
+
+    .home {
         height: 100vh;
-        &__data{
+        &__data {
             align-self: flex-end;
         }
-        &__social{
+
+        &__social {
             padding-top: 0;
             padding-bottom: 2.5rem;
             flex-direction: row;
             align-self: flex-end;
 
-            &-icon{
+            &-icon {
                 margin-bottom: 0;
                 margin-right: var(--mb-4);
             }
         }
-        &__img{
+
+        &__img {
             width: 457px;
             bottom: 15%;
         }
     }
 
-    .about{
-        &__container{
+    .about {
+        &__container {
             grid-template-columns: repeat(2,1fr);
             align-items: center;
             text-align: initial;
         }
-        &__img{
-            & img{
+
+        &__img {
+            & img {
                 width: 300px;
             }
         }
     }
-    .skills{
-        &__container{
+
+    .skills {
+        &__container {
             grid-template-columns: repeat(2,1fr);
             align-items: center;
             text-align: initial;
         }
     }
-    .work{
-        &__container{
+
+    .work {
+        &__container {
             grid-template-columns: repeat(3,1fr);
             grid-template-rows: repeat(2, 1fr);
             column-gap: 2rem;
         }
     }
-    .contact{
-        &__form{
+
+    .contact {
+        &__form {
             width: 360px;
         }
-        &__container{
+
+        &__container {
             justify-items: center;
         }
     }
-
 }
+
 @media screen and(min-width: 1024px){
     .bd-grid{
         margin-left: auto;
