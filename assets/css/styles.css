@@ -46,7 +46,7 @@
   --mb-6: 3rem;
 }
 
-/*===== z index =====*/
+/*===== z-index =====*/
 
 :root {
   --z-back: -10;
@@ -198,7 +198,7 @@ img {
   cursor: pointer;
 }
 
-/*Active menu*/
+/* Active menu */
 
 .active::after {
   position: absolute;
@@ -264,7 +264,7 @@ img {
   margin-top: var(--mb-2);
 }
 
-/*BUTTONS*/
+/* BUTTONS */
 
 .button {
   display: inline-block;
@@ -472,7 +472,7 @@ figure:hover figcaption {
   font-size: .7rem;
 }
 
-/* ===== MEDIA QUERIES=====*/
+/* ===== MEDIA QUERIES =====*/
 
 @media screen and (min-width: 768px) {
   body {
