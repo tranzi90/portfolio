@@ -32,7 +32,7 @@
     }
 }
 
-/*===== Margins =====*/
+/* ===== Margins ===== */
 
 :root {
     --mb-1: 0.5rem;
@@ -43,7 +43,7 @@
     --mb-6: 3rem;
 }
 
-/*===== z index =====*/
+/* ===== z index ===== */
 
 :root {
     --z-back: -10;
@@ -52,7 +52,7 @@
     --z-fixed: 100;
 }
 
-/*===== BASE =====*/
+/* ===== BASE ===== */
 
 *,::before,::after {
     box-sizing: border-box;
@@ -89,7 +89,7 @@ img {
     display: block;
 }
 
-/*===== CLASS CSS ===== */
+/* ===== CLASS CSS ===== */
 
 .section-title {
     position: relative;
