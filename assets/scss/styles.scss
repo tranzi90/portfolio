@@ -117,7 +117,7 @@ img {
     padding-bottom: 2rem;
 }
 
-/*===== LAYOUT =====*/
+/* ===== LAYOUT ===== */
 
 .bd-grid {
     max-width: 1024px;
@@ -139,7 +139,7 @@ img {
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
-/*===== NAV =====*/
+/* ===== NAV ===== */
 
 .nav {
     height: var(--header-height);
@@ -195,7 +195,7 @@ img {
     }
 }
 
-/*Active menu*/
+/* Active menu */
 
 .active::after {
     position: absolute;
@@ -207,13 +207,13 @@ img {
     background-color: var(--first-color);
 }
 
-/*=== Show menu ===*/
+/* === Show menu === */
 
 .show {
     right: 0;
 }
 
-/*===== HOME =====*/
+/* ===== HOME ===== */
 
 .home {
     height: calc(100vh - 3rem);
