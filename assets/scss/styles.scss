@@ -376,6 +376,7 @@ img {
         & img {
             transition: 1s;
             cursor: pointer;
+            margin: auto;
 
             &:hover {
                 transform: scale(1.1);

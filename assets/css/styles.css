@@ -380,6 +380,7 @@ img {
 .work__img img {
   transition: 1s;
   cursor: pointer;
+  margin: 0;
 }
 
 figure {
@@ -387,6 +388,7 @@ figure {
   text-align: center;
   margin: 0;
   height: 100%;
+  display: flex;
 }
 
 figcaption {
