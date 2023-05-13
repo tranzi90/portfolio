@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extractor xmlns="../sprobot.xsd" thread-count="20" use-unique-entity-check="true">
+    <append name="sp_company_name" value="Высшая лига">
+        <append name="sp_url" value="http://www.topliga.ru">-->
+            <innermost-load url="https://topliga.ru/shop/">
+                <append name="source_url" value="${url}">
+                    <each-xpath-node path="//DIV[@class='spoiler-body']">
+                        <multiple-xpath target="NODE">
+                            <attribute name="sp_address" path="text()[2]"/>
+                            <attribute name="sp_phone" path="text()[3]"/>
+                            <entity source-url="${url}"/>
+                        </multiple-xpath>
+                    </each-xpath-node>
+                </append>
+            </innermost-load>
+        </append>
+    </append>
+</extractor>
