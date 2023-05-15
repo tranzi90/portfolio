@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <extractor xmlns="../sprobot.xsd" thread-count="20" use-unique-entity-check="true">
     <append name="sp_company_name" value="cloikk">
-        <append name="sp_url" value="http://www.topliga.ru">-->
+        <append name="sp_url" value="https://cloikk.ru/">-->
             <innermost-load url="https://topliga.ru/shop/">
                 <append name="source_url" value="${url}">
                     <each-xpath-node path="//DIV[@class='spoiler-body']">
