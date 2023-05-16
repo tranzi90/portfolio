@@ -2,7 +2,7 @@
 <extractor xmlns="../sprobot.xsd" thread-count="20" use-unique-entity-check="true">
     <append name="sp_company_name" value="cloikk">
         <append name="sp_url" value="https://cloikk.ru/">-->
-            <innermost-load url="https://topliga.ru/shop/">
+            <innermost-load url="https://cloikk.ru/">
                 <append name="source_url" value="${url}">
                     <each-xpath-node path="//DIV[@class='spoiler-body']">
                         <multiple-xpath target="NODE">
